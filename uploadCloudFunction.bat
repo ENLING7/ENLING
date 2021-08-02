@@ -1,0 +1,1 @@
+"D:\wechat_devtool\path\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-4gm2eumc2ce81979 --n quickstartFunctions --r --project "E:\mycode\test_weather" --report

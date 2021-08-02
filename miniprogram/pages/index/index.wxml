@@ -1,0 +1,29 @@
+<map
+  id="map" 
+  class="map"
+  enable-zoom="true"
+  longitude="{{longitude}}" 
+  latitude="{{latitude}}" 
+  scale="9" 
+  bindtap="tap"
+  controls="{{controls}}" 
+  cover-view="{{controls}}"
+  bindcontroltap="controltap"
+  bindcallouttap="callouttap" 
+  markers="{{marker}}" 
+  bindmarkertap="markertap"  
+  bindpoitap="poitap"
+  bindregionchange="regionchange" 
+  show-compass
+  include-points="{{markersEye}}" 
+  show-location 
+ style="position: relative; left: 0rpx; top: 83rpx">
+</map>
+
+
+<view class="place_info" style="display: flex">
+<view class="offer_item" >
+  <input class="_input" name="location" placeholder="请输入查询地点" bindinput= "locationinputs"    auto-focus />
+</view>
+<button class="mini-btn" bindtap="go" style="width: 14vmin;height: 7vmin;font-size: 8pt !important;"  type="primary" size="mini">查询</button>
+</view>
